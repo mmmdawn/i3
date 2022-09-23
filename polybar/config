@@ -34,8 +34,8 @@ width = 100%
 height = 25
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 0
-fixed-center = false
+radius-bottom = 10
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -59,7 +59,7 @@ font-3 = "FontAwesome:pixelsize=11;1"
 
 modules-left = i3
 modules-center = date
-modules-right = filesystem powermenu 
+modules-right = filesystem 
 
 tray-position = right
 tray-padding = 2
